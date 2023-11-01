@@ -24,10 +24,7 @@ git clone https://github.com/mpkuse/g2o_tutorial
 ```
 
 ### Run Docker 
-<<<<<<< HEAD
-=======
 I have a [docker image](https://hub.docker.com/r/mpkuse/my-g2o-image) with g2o and Eigen installed on it. 
->>>>>>> f3c71a0 (first commit)
 Mount the repo in the docker at `/code` and run the docker. 
 ```
 docker run -v $HOME/Downloads/g2o_tutorial:/code -it mpkuse/my-g2o-image
