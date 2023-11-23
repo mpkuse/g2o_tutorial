@@ -36,6 +36,13 @@ docker ps #to get container id
 docker exec -it <CONTAINER_ID> /bin/bash
 ```
 
+### Build Docker then Run
+```
+docker build -t joke-image  .
+docker run -v $HOME/Downloads/g2o_tutorial:/code -it joke-image 
+```
+
+
 ### Compile code (in docker)
 Run the docker and in the docker's terminal execute this
 ```
